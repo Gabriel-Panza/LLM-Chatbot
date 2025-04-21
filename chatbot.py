@@ -17,7 +17,7 @@ while True:
     conversation_history.append(f"<user>: {input_text}")
 
     # Limita o histórico para as últimas 8 interações
-    max_turns = 8
+    max_turns = 6
     trimmed_history = conversation_history[-max_turns:]
     history_string = '\n'.join(trimmed_history)
 
